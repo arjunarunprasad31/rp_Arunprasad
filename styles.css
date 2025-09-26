@@ -10,33 +10,34 @@
 }
 
 .authors{
-    background-color: #dbe3e7;
+    background-color: #f5fffc;
 }
 
 .body{
-    background-color: rgb(90, 92, 92);
+    background-color: rgb(0, 35, 26);
 }
 
 .footer{
-    background-color: #023E8A;
+    background-color: #004d3a;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
-    color: #FFFFFF;
+    color: #f5fffc;
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #004d3a;
 }
 
 .nbMenuItem{               /* navbar link text properties */
     font-size:25px;
     margin-left: 10px;
     margin-right: 10px;
+    color:#f5fffc;
 }
 
 .overview{
-    background-color: #dbe3e7;
+    background-color: #f5fffc;
 }
 
 .ovPadLeft{
@@ -48,12 +49,22 @@
 }
 
 .procedure{
-    background-color: #dbe3e7;
+    background-color: #f5fffc;
     padding: 1px;
 }
 
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: #00876c; /*#0096c7*/
+}
+
+.table-shrink {
+    width: auto;
+    height: 250px;
+}
+
+.tb-bg-green th {
+    background-color: #004d3a;
+    color: #f5fffc;   /*Must fix*/
 }
 
 /* ----------------- ID CSS ----------------- */
@@ -82,3 +93,4 @@
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
 }
+
